@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['bycle', 'car', 'chair', 'light', 'mail box', 'person and bycle', 'person', 'traffic cone', 'trafficlight', 'trash']
+
+roboflow:
+  workspace: nightvisionv2
+  project: night-vision2
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nightvisionv2/night-vision2/dataset/2
